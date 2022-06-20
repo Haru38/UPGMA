@@ -1,3 +1,6 @@
+# add this comennt
+
+
 class Cluster():
     def __init__(self,name,numOfElements):
         #cluster name
@@ -119,9 +122,9 @@ def search_cluster(clusters,name):
             return cluster
 
 if __name__ == "__main__":
-    distance_matrix = {"A":{ "B":0.1,"C":0.12,"D":0.21},
-                                      "B":{"A":0.1,"C":0.04,"D":0.13},
-                                      "C":{ "A":0.12,"B":0.04,"D":0.11},
+    distance_matrix = {"A":{ "B":6,"C":7,"D":3,"E":7,"F":4},
+                                      "B":{"A":6,"C":4,"D":4,"E":6,"F":5},
+                                      "C":{ "A":7,"B":0.04,"D":0.11},
                                       "D":{ "A":0.21,"B":0.13,"C":0.11}}
     all_culusters = len(distance_matrix)
 
